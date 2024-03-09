@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Hat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="HackerBox side">
+            <p>Black Hat</p>
+        </div>
+
+        <div class="HackerBox hackerContent">
+            <h1>Ghost Byte</h1>
+            <p class="P">specify target:</p>
+            <input class="input" type="text" id="target">
+            <div class="items">
+                <input id="check1" type="checkbox" class="checkBox">
+                <label for="check1">Facebook</label>
+                <input id="check2" type="checkbox" class="checkBox">
+                <label for="check2">Instagram</label>
+                <input id="check3" type="checkbox" class="checkBox" onclick="allCheck()">
+                <label for="check3">Phone access</label>
+            </div>
+            <div id="messages" class="text">
+            </div>
+            <button onclick="hack()">Hack</button>
+        </div>
+
+        <div class="HackerBox side">
+            <p>Hacker Man</p>
+        </div>
+    </div>
+    <!-- <div id="text"></div> -->
+    <script src="script.js"></script>
+</body>
+</html>
